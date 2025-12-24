@@ -40,13 +40,14 @@ Bootstrap 5 kullanılarak görsel olarak desteklenmiştir.
 ## 📂 Proje Yapısı
 
 2-Form-Validator-Uygulaması/
-│
+
+
 ├── index.html
-
+|
 ├── script.js
-
+|
 ├── styles.css
-
+|
 └── README.md
 
 
