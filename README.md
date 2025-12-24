@@ -7,6 +7,9 @@ basit ama etkili bir uygulamadır.
 Bootstrap 5 kullanılarak görsel olarak desteklenmiştir.
 
 ---
+<img width="722" height="768" alt="image" src="https://github.com/user-attachments/assets/cd782c12-adb8-41bc-9f8d-f4748c52794c" />
+
+
 
 ## 🚀 Özellikler
 
