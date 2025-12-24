@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container my-5 d-flex justify-content-center">
+        <div class="col-sm-5">
+            <div class="card">
+                <div class="card-header">Kullancı Olustur</div>
+                <div class="card-body">
+                    <form id="form">
+                    <div class="form-group">
+                        <label for="username">username</label>
+                        <input type="text" class="form-control" id="username" placeholder="Enter username">
+                        <div></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter email">
+                        <div></div>
+                    </div>
+
+
+                      <div class="mb-3">
+                        <label for="phone">Telefon Numarası</label>
+                        <input type="tel"  id="phone" class="form-control" placeholder="5523456789" maxlength="10" inputmode="numeric" >    
+                            <div class="invalid-feedback"></div>
+                        
+                        <small class="text-muted">`` Numara 5 ile başlamalıdır ve tam 10 hane olmalıdır </small>
+                    </div> 
+
+
+                    <!-- <div class="form-group">
+                        <label for="re-password">phone</label>
+                        <input type="phone" class="form-control" id="phone" placeholder="Enter phone" >
+                        <div></div>
+                    </div>  -->
+
+
+                    <div class="form-group">
+                        <label for="password">password</label>
+                        <input type="password" class="form-control" id="password" placeholder="Enter password">
+                        <div></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="re-password">re-password</label>
+                        <input type="password" class="form-control" id="repassword" placeholder="Enter re-password"  aria-describedby="passwordHelpBlock">
+                        <div></div>
+                    </div>
+
+                  
+                    
+                    <button type="submit" class="btn btn-primary btn-block" >Register</button>  
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+

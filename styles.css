@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{  
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+}
+
+label{
+
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 2%;
+    font-weight: bold;
+}
+.card-body{
+    background-color: rgb(223, 219, 219);
+}
+
+.card-header{
+    color: antiquewhite;
+    background-color: azure;
+}
+
+.card-header {
+    color: rgb(66, 24, 24);
+    text-shadow: 1px 2px 2px #000000;
+    background-color: rgb(209, 219, 219);
+}
+
+.btn{
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.form-group{
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.error{
+    border: 1px solid red;
+}
